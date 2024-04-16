@@ -1,0 +1,60 @@
+.card {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: left;
+    color: white;
+    margin: 0;
+}
+
+.text {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    * {
+        all: unset;
+    }
+}
+
+@media only screen and (max-width: 1540px) {
+
+
+
+    .title {
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
+    .time {
+        font-size: 14px;
+    }
+
+    .link {
+        font-size: 16px;
+    }
+}
