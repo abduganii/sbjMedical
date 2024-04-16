@@ -6,8 +6,14 @@ const EquipmentsList = () => {
     <div className={styles.equipments}>
       <div className="container-sm">
         <div className={styles.list}>
-          {Array.from({ length: 8 }, () => Math.random()).map((el) => (
-            <EquipmentCard className={styles.card} key={el} />
+          {Array.from({ length: 8 }, () => Math.random()).map((el, i) => (
+            <EquipmentCard
+              className={styles.card}
+              key={i}
+              title={"title"}
+              span={"span"}
+              text={"text"}
+            />
           ))}
         </div>
       </div>
