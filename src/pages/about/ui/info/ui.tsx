@@ -17,7 +17,7 @@ const AboutInfo = () => {
         </div>
         <Image
           className={styles.image}
-          src={data?.image ? data?.image : '/images/all-doctors.png'}
+          src={data?.image}
           alt="Team"
           width={1600}
           height={580}

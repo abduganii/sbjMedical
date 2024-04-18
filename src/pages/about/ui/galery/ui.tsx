@@ -10,7 +10,6 @@ import fetchData from "@/pages/api"
 const AboutGalery = () => {
   const { data } = useQuery('aboutus', () => fetchData('other/about/1/retriev/'))
   const lang = useCurrentLocale()
-  console.log(data)
   return (
     <div className={styles.galery}>
       <div className="container-sm">

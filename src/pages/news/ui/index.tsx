@@ -8,6 +8,7 @@ type NewsType = {
 };
 
 const News = ({ news }: NewsType) => {
+  console.log(news)
   return (
     <>
       <Subheader render={breadcrumbs_list} title="Новости" />
